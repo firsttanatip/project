@@ -1,0 +1,143 @@
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#About us" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About us</a>
+    <a href="#Contact us" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact us</a>
+</div>
+
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#Home" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#About us" class="w3-bar-item w3-button w3-padding-large">About us</a>
+    <a href="#Contact us" class="w3-bar-item w3-button w3-padding-large">Contact us</a>
+
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="psu7.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Welcome to Page</b></span></h1>
+  </div>
+</header>
+
+<!-- About -->
+ <div class="w3-center w3-padding-64" id="contact">
+   <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">About Us</span>
+ </div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <div class="w3-center">
+        <img src="mook1.jpg" alt="mook"style="width:60%">
+      </div>
+      <h1>Supanit Boonchumanee</h1>
+      <h5 class="w3-padding-32">Name : Supanit Boonchumanee<br>Nickname : Kaimuk<br>
+         Birthday : 15 May 1998 <br>Addrees : 17 soi8 Pasawang R. Hatyai,Songkhla 90110<br>Tel. 0894684077<br>E-mail : Mookdakzaa@gmail.com
+      </h5>
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="mook.html">click</a></button>
+        <div>
+            <a href="mook.html"></a>  <!-- สร้างลิงค์ -->
+        </div>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+  <div class="w3-center">
+    <img src="first.jpg" alt="first"style="width:60%">
+  </div>
+      <h1>Tanatip Tangkum</h1>
+      <h5 class="w3-padding-32">Name : Tanatip  Tangkum<br>Nickname : First<br>
+         Birthday : 21 October 1997 <br>Addrees : 61 Watnicoat R. Muang,Trang 92000<br>Tel. 0836350081<br>E-mail : First-kiss1231@hotmail.com
+      </h5>
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="first.html">click</a></button>
+      <div>
+          <a href="first.html"></a> <!-- สร้างลิงค์ -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact -->
+ <div class="w3-center w3-padding-64" id="contact">
+   <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+ </div>
+
+ <form class="w3-container" action="/action_page.php" target="_blank">
+   <div class="w3-section">
+     <label>Name</label>
+     <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+   </div>
+   <div class="w3-section">
+     <label>Email</label>
+     <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+   </div>
+   <div class="w3-section">
+     <label>Subject</label>
+     <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+   </div>
+   <div class="w3-section">
+     <label>Message</label>
+     <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+   </div>
+   <button type="submit" class="w3-button w3-block w3-black"><a href="sending.html">Send</a></button>
+ </form>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
